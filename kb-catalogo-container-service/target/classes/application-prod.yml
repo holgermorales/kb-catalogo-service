@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: cj-repositorio-service
+  config:
+    import: optional:configserver:http://${CJ_EVA_IP_SERVER}:8088
